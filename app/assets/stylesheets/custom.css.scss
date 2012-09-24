@@ -1,25 +1,75 @@
 @import "bootstrap";
 
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 section {
-    overflow: auto;
+  overflow: auto;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .center hl {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* HEADER */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
 }
