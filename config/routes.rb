@@ -1,4 +1,6 @@
 Mealsdo::Application.routes.draw do
+  resources :plannings
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 
